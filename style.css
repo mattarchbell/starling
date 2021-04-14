@@ -1,0 +1,92 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: lightgrey;
+  color: black;
+}
+
+div {
+  max-width: 1200px;
+  margin: auto;  
+}
+
+h1 {
+  color: #3B5323;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: #3B5323;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: black;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  color: black;
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: black;
+  text-indent: 40px;
+}
+
+/* the navbar is modified heavily from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
+ul.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #3B5323;
+}
+
+/** this list item is used to add bulletpoints*/
+ul.bullet{
+  list-style-type: circle;
+  margin-left: 60px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* these floats deal with the left and right aligned parts of the navbar*/
+.lefty {
+  float: left;
+}
+
+.righty {
+  float: right;
+}
+
+/* This list is formatting the navbar links/tabs and the following is dealing with the mouse hover on these links and the active tab colour*/
+li a {
+  display: block;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #78AB46;
+}
+
+.active {
+  background-color: #4A7023;
+}
