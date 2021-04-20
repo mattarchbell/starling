@@ -51,7 +51,7 @@ iframe.exp {
   max-width:100%;
   height:auto;
 }
-/* the navbar is modified heavily from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
+/* the navbar is modified from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
 ul.navbar {
   list-style-type: none;
   margin: 0px;
@@ -68,7 +68,8 @@ ul.bullet{
   padding: 10px;
 }
 
-/* these floats deal with the left and right aligned parts of the navbar, as well as the linkedin links*/
+/* these floats deal with the left and right aligned parts of the navbar, as well as the linkedin links
+centered is used mainly to center images*/
 .lefty {
   float: left;
 }
@@ -78,6 +79,8 @@ ul.bullet{
 }
 
 .centered {
+  max-width: 100%;
+  height:auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
