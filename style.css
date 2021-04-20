@@ -82,8 +82,8 @@ centered is used mainly to center images*/
   max-width: 100%;
   height:auto;
   display: block;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* This list is formatting the navbar links/tabs and the following is dealing with the mouse hover on these links and the active tab colour*/
