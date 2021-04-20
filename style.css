@@ -64,7 +64,7 @@ ul.bullet{
   padding: 10px;
 }
 
-/* these floats deal with the left and right aligned parts of the navbar*/
+/* these floats deal with the left and right aligned parts of the navbar, as well as the linked in links*/
 .lefty {
   float: left;
 }
