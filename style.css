@@ -62,7 +62,7 @@ ul.navbar {
   overflow: hidden;
   background-color: #3B5323;
 }
-@media screen and (max-width: 608px) {
+@media screen and (max-width: 624px) {
   ul.navbar li a {
     text-align: center;
     float: none;
