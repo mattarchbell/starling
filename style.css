@@ -78,7 +78,9 @@ ul.bullet{
 }
 
 .centered {
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* This list is formatting the navbar links/tabs and the following is dealing with the mouse hover on these links and the active tab colour*/
