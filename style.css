@@ -68,13 +68,17 @@ ul.bullet{
   padding: 10px;
 }
 
-/* these floats deal with the left and right aligned parts of the navbar, as well as the linked in links*/
+/* these floats deal with the left and right aligned parts of the navbar, as well as the linkedin links*/
 .lefty {
   float: left;
 }
 
 .righty {
   float: right;
+}
+
+.centered {
+  align-items: center;
 }
 
 /* This list is formatting the navbar links/tabs and the following is dealing with the mouse hover on these links and the active tab colour*/
