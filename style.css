@@ -62,6 +62,12 @@ ul.navbar {
   overflow: hidden;
   background-color: #3B5323;
 }
+@media screen and (max-width: 608px) {
+  ul.navbar li a {
+    text-align: center;
+    float: none;
+  }
+}
 
 /** this list item is used to add bulletpoints*/
 ul.bullet{
