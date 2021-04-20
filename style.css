@@ -8,8 +8,11 @@ body {
 }
 
 div {
-  max-width: 1200px;
+  max-width: 100%;
   margin: auto;  
+}
+.maintext {
+  max-width: "1200px";
 }
 
 h1 {
