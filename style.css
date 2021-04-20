@@ -47,6 +47,10 @@ p {
   text-indent: 40px;
 }
 
+iframe.exp {
+  max-width:100%;
+  height:auto;
+}
 /* the navbar is modified heavily from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
 ul.navbar {
   list-style-type: none;
