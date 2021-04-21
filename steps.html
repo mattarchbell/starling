@@ -28,10 +28,12 @@
       as this would allow the solution to be adopted affordably</li>
     <li>Geocortex was also explored as a solution. Although a more expensive solution, the program has been used by Ontario counties as a means of
       effectively disseminating information to residents. Our initial idea was to allow users to export a PDF report for their parcel. We experimented
-      with importing our environmental feature information on an OpenStreetMap basemap during a lab session:</li>
+      with importing our environmental feature information during a lab session:</li>
     </ul> 
     <img class="centered" src="images/geocortexconfiguration.png" alt="Geocortex Builder">
+	  <div class="caption">The addition of conservation authority vector files to an OpenStreetMap basemap.</div>
 	  <img class="centered" src="images/geocortexviewer.png" alt="Geocortex Viewer">
+	  <div class="caption">The map in the Geocortex HTML viewer.</div>
   <ul class="bullet">
     <li>Ultimately, we came to the conclusion that Leaflet would take a lot of effort to learn, not to mention implement, and that Geocortex did not have
       the functionality that we needed. We decided to use one of the available ESRI web applications, as the CVCA had access to ArcGIS Online</li>
@@ -72,15 +74,17 @@
       allow the user to see if parcels intersected the water features or not...</li>
     <li>Within the Web Map, we had to configure the pop-ups using Arcade. This language was new to all of us, but we 
       started to figure it out...</li>
-    <li></li>
+    <li>The benefit to using the Arcade expressions is that it allows the map to query those layers intersecting with 
+	the parcel of interest in real time, avoiding time-consuming pre-processing and making the application easy to adapt in the future.</li>
   </ul>
   <img class="centered" src="images/arcade.png" alt="Arcade Expression">
+  <div class="caption">The Arcade expressions used to configure the information displayed on our pop-ups.</div>
 
   <h2>Week 13</h2>
   <h3>It works...</h3>
   <ul class="bullet">
     <li>With the appliction now working there were still a few issues. It looked fantastic in some instances, 
-      but there was text overlapping areas it shouldnt have, images clipping the bounds of the side bar... </li>
+      but there was text overlap and images clipping the bounds of the side bar, giving the page a cluttered appearance... </li>
     <li>Oh yeah, this thing is kinda due next week... We should probably start making a website for it! Lets 
       just grab a little css from here, a bit of html from there...</li>
   </ul>
