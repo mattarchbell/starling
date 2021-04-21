@@ -48,6 +48,13 @@ p {
   text-indent: 40px;
 }
 
+.caption {
+  text-align: centre;
+  font-style: italic;
+  font-size: 11px;
+  font-color: #888888;
+}
+
 /* the navbar is modified from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
 ul.navbar {
   list-style-type: none;
