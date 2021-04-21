@@ -56,7 +56,7 @@ ul.navbar {
   overflow: hidden;
   background-color: #3B5323;
 }
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 650px) {
   ul.navbar li a {
     text-align: center;
     float: none;
@@ -111,4 +111,44 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #4A7023;
+}
+
+/* to create boxes for oiur about, modified from w3schools https://www.w3schools.com/howto/howto_css_about_page.asp*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
