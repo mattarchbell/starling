@@ -54,7 +54,7 @@ ul.navbar {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #3B5323;
+  background-color: #0f0022;
 }
 @media screen and (max-width: 650px) {
   ul.navbar li a {
@@ -90,7 +90,7 @@ centered is used mainly to center images*/
 }
 
 a {
-  color: #78AB46;
+  color: #36007e;
   background-color: transparent;
   text-decoration: none;
   margin: auto; 
@@ -106,9 +106,9 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #78AB46;
+  background-color: #5e31b1;
 }
 
 .active {
-  background-color: #4A7023;
+  background-color: #36007e;
 }
