@@ -10,6 +10,7 @@ body {
 
 div.maintext {
   max-width: 1000px;
+  margin: auto; 
 }
 
 h1 {
