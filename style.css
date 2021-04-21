@@ -93,7 +93,7 @@ a {
   color: #3B5323;
   background-color: transparent;
   text-decoration: none;
-  text-align: center;
+  margin: auto; 
 }
 /* This list is formatting the navbar links/tabs and the following is dealing with the mouse hover on these links and the active tab colour*/
 li a {
