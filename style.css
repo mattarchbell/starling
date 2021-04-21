@@ -125,10 +125,9 @@ li a:hover:not(.active) {
   background-color: #0f0022;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
+
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
   .footer {
     text-align: center;
     float: none;
