@@ -7,10 +7,7 @@ body {
   color: black;
 }
 
-div {
-  max-width: 100%;
-  margin: auto;  
-}
+
 div.maintext {
   max-width: "1000px";
 }
@@ -50,10 +47,6 @@ p {
   text-indent: 40px;
 }
 
-iframe.exp {
-  max-width:100%;
-  height:100%;
-}
 /* the navbar is modified from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
 ul.navbar {
   list-style-type: none;
