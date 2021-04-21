@@ -121,6 +121,16 @@ li a:hover:not(.active) {
   background-color: #36007e;
 }
 
+/* this next section deals with the final project link*/
+.experience {
+  background-color: #0f0022;
+  text-align: center;
+  padding: 10px;
+  max-width: 100%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* this next section deals with the footer*/
 .footer {
   background-color: #0f0022;
