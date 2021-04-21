@@ -131,7 +131,7 @@ li a:hover:not(.active) {
   margin-right: auto;
 }
 .footimage {
-  max-width: 100%;
+  max-width: 500px;
   height:auto;
   margin-left: auto;
   margin-right: auto;
