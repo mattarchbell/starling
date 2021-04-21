@@ -49,10 +49,11 @@ p {
 }
 
 .caption {
-  text-align: centre;
+  text-align: center;
   font-style: italic;
-  font-size: 11px;
+  font-size: 12px;
   font-color: #888888;
+  padding: 2px;
 }
 
 /* the navbar is modified from the W3schools example found at https://www.w3schools.com/css/css_navbar.asp */
