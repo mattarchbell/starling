@@ -62,10 +62,11 @@
       need to successfully develop a solution. Our next step was to gather the required data, which we retrieved from our collaborative project 
       client, upload it to ArcGIS Online and create a web map as well as an Experience Builder to host the web map. We spent time playing around 
       with the available widgets and determining which ones could add the most value to our user experience. One of our biggest challenges was 
-      having all group member be able to access the web map and Experience Builder as the group sharing setting are finicky. </p> 
-  	<p> <b>Outcomes:</b> The outcome of this was our Experience Builder shell with all our data hosted in a web map. To solve this sharing 
-      issues, we faced we had to change ownership of some feature layers and set sharing to public.  </p> 
-  	<p> <b>Next Steps: </b> Once everyone could properly access the web map and Experience Builder, the next step was to customize the experience with our users in mind.   </p> 
+      having all group member being able to access the web map and Experience Builder, as the group sharing settings are finicky. </p> 
+  	<p> <b>Outcomes:</b> The outcome of this was our Experience Builder shell with all our data hosted in a web map. To solve the sharing 
+      issues we faced, we had to change ownership of some feature layers and set sharing to public.  </p> 
+  	<p> <b>Next Steps: </b> Once everyone could properly access the web map and Experience Builder, the next step was to customize the experience 
+		with our users in mind.   </p> 
 
   <h2>Week 11</h2>
   <h3>Phase 3: Development within Experience Builder</h3>
@@ -73,25 +74,25 @@
     proper titles, and side bars to display map information. Making sure the layout was functional was imperative to the user "experience". 
     We wanted to be sure that anybody accessing this solution would be able to easily navigate through the map. </p> 
   <p> <b>Outcomes:</b> These actions resulted in the first iteration of our Experience Builder. It had some user functionality with wetland 
-    data being displayed on the side bar when the user clicked around on the map feature layer as well as text communicating to the user the 
-    purpose of the application and how to use it.   </p> 
+    data being displayed on the side bar when the user clicked around on the map layers as well as text communicating to the user the 
+    purpose of the application and how to use it. </p> 
   <p> <b>Next Steps: </b> Now that we have communicated to the user how we want the interactive map to function we had to designed and implement 
     that functionality. The next step was to research and develop arcade expression that could be used to customize pop-ups thereby displaying the 
     exact information we want the user to know.  </p> 
 
   <h2>Week 12</h2>
   <h3>Phase 4: Development within Experience Builder Continued</h3>
-  <p> <b>Action:</b> Our focus know was developing the arcade expressions and configuring pop-ups to display the necessary information to the user. 
+  <p> <b>Action:</b> Our focus now was developing the arcade expressions and configuring pop-ups to display the necessary information to the user. 
     Ultimately, we wanted the user to know if their property intersected with any features that were regulated by the Conservation Authority. We did 
-    this by using the intersect functionality of arcade expression. Initially, we customize expressions for the parcel layer pop-ups to return a 
+    this by using the intersect functionality of arcade expressions. Initially, we customized expressions for the parcel layer pop-ups to return a 
     value of “Yes” if the parcel they clicked on intersected with the watershed boundary layer, waterbodies, watercourses, and wetland layers 
     (provincially significant and otherwise). Knowing if a property intersected with these features will 1) Let the user know if their property 
-    was within Crow Valley’s jurisdiction and 2) whether their property had a feature that required a permit.  </p> 
+    was within Crow Valley’s jurisdiction and 2) whether their property had an environmental feature which required a permit to build.  </p> 
   <p> <b>Outcomes:</b> Further development of the arcade expressions led to a solution that not only would return a value of “Yes” if the parcel 
     intersected with another feature layer but also return a value of “No” if it did not. We also configured the pop-ups to display information 
     about the wetland name and type. The benefit to using the Arcade expressions is that it allows the map to query those layers intersecting with 
     the parcel of interest in real time, avoiding time-consuming pre-processing and making the application easy to adapt in the future.  </p> 
-  <p> <b>Next Steps: </b> Although the basic functionality is in place, there are still issue with the Experience Builder. Mainly, that the display 
+  <p> <b>Next Steps: </b> Although the basic functionality is in place, there are still issues with the Experience Builder. Mainly, that the display 
     is not configured for all devices sizes and it has a cluttered appearance.  </p>
 	  
   <img class="centered" src="images/initialarcadeexpression.png" alt="Initial Arcade Expression">
