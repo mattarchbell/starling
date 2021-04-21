@@ -95,6 +95,11 @@ centered is used mainly to center images*/
   margin-right: auto;
 }
 
+a {
+  color: #3B5323;
+  background-color: transparent;
+  text-decoration: none;
+}
 /* This list is formatting the navbar links/tabs and the following is dealing with the mouse hover on these links and the active tab colour*/
 li a {
   display: block;
