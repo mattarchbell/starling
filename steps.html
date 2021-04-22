@@ -20,12 +20,12 @@
 
   <h2>Week 9</h2>
   <h3>Phase 1: Problem Statement and Concept Development</h3>
-	<p> <b>Action:</b> The first step for this project was to define our problem statement, define the ideal scenario if we were able to generate a web 
-    solution that solved this problem, and investigate the consequences of not having this solution. At the same time we were thinking about what software
+	<p> <b>Action:</b> The first step for this project was to define our problem statement, as well as the ideal scenario in which we can generate a web 
+     solution that solved this problem, and investigate the consequences of not having this solution. At the same time, we thought about which GIS software
      solutions could be used to tackle and host this web solution.</p> 
-	<p> <b>Outcomes:</b> Initially, the scope of our project was too large. Throughout the concept development process we were too focused on the type of 
-    software we would like to use rather then what makes the most sense as a solution to our problem. Below is our initial problem statement submitted 
-    to Shawn followed by the problem statement that was approved.</p> 
+	<p> <b>Outcomes:</b> Initially, the scope of our project was too large. Throughout the concept development process, we were too focused on the type of 
+    	software we would like to use rather than what would be most effective as a solution to our problem, with the skill level of the project team. Below is our 
+		initial problem statement submitted to Shawn followed, by the problem statement that was eventually approved.</p> 
 	<p> <b>Initial Problem Statement:</b> <i>Create a web map application visualizing data for the conservation authority. Users should be able to filter layers, 
     interact with features using popup displays, and to search for location information. Map will use a combination of data from the conservation authority 
     (e.g. shapefiles obtained directly, information digitized from map images/pdfs) and open-source data (e.g. landcovers, typical monthly precipitation and temperature).</i></p> 
@@ -35,14 +35,14 @@
   <p> <b>Development Progress:</b> </p>
   <ul class="bullet">
     
-    <li>Our idea was to develop a simple solution for Crowe Valley Conservation Authority that would allow landowners to find wetland information 
-    about their property using parcel data and wetland data and determining if those layers overlapped. This would assist the conservation authority in 
+    <li>Our idea was to develop a simple solution for Crowe Valley Conservation Authority that would allow landowners to find information 
+    about their property, using parcel data and wetland data to determine if those layers overlapped. This would assist the conservation authority in 
     rapidly screening development proposals.</li>
     <li>Although a simple idea, we struggled with how to implement a solution. Originally, we wanted to utilize open source solutions, namely Leaflet,
       as this would allow the solution to be adopted affordably.</li>
     <li>Geocortex was also explored as a solution. Although a more expensive solution, the program has been used by other conservation authorities as a means of
-      effectively disseminating information to residents. Our initial idea was to allow users to export a PDF report for their parcel detailing all the features 
-      associated with that parcel. We experimented with importing our environmental feature information during a lab session.</li>
+      effectively disseminating information to residents, and was available to the project team. Our initial idea was to allow users to export a PDF report for their 
+      parcel detailing all the features associated with that parcel. We experimented with importing our environmental feature information during a lab session.</li>
     </ul> 
     <img class="centered" src="images/geocortexconfiguration.png" alt="Geocortex Builder">
 	  <div class="caption">The addition of conservation authority vector files to an OpenStreetMap basemap.</div>
@@ -56,42 +56,42 @@
 
 	  
   <h2>Week 10</h2>
-  <h3>Phase 2: Familiarizing Ourselves with Experience Builder and Developing a Workflow</h3>
-  	<p> <b>Action:</b> Although the concept remained the same, it was drastically reduced in scope. After looking through the web application 
-      options available such as Configurable Apps and ArcGIS Web App Builder, we decided that Experience Builder had all the functionality we 
-      need to successfully develop a solution. Our next step was to gather the required data - which we were given by our collaborative project 
-      client - upload it to ArcGIS Online and create a web map and an Experience Builder to host the web map. We spent time playing around 
-      with the available widgets and determining which ones could add the most value to our user experience. One of our biggest challenges was 
-      allowing all group members access to the web map and Experience Builder; we had to delete and reshare the web map 
-      in ArcGIS online to ensure everbody had editor privleges of the data.   </p> 
+  <h3>Phase 2: Familiarizing Ourselves with Experience Builder and Developing Our Workflow</h3>
+  	<p> <b>Action:</b> Although our concept remained the same, we drastically reduced in scope based on what was feasible given the time frame. 
+	After looking through the web application options available such as Configurable Apps and ArcGIS Web App Builder, we decided that Experience 
+	Builder had all the functionality we need to successfully develop a solution. Our next steps were to gather the required data - which we were 
+	given by our collaborative project client - upload it to ArcGIS Online, and create a web map and an Experience to host the web map and
+	other features. We spent time playing around with the available widgets and determining which ones could add the most value to our user experience. 
+	One of our biggest challenges was allowing all group members access to the web map and Experience Builder; we had to delete and reshare the web map 
+        in ArcGIS online to ensure everbody had editor privileges for the data.</p> 
   	<p> <b>Outcomes:</b> Our Experience Builder shell and all our data hosted in a web map. To solve this sharing 
-      issues we faced, we had to change ownership of some feature layers and set sharing to public.  </p> 
-  	<p> <b>Next Steps: </b> Once everyone could properly access the web map and Experience Builder, the next step was to customize the experience 
-      with our users in mind.   </p> 
+        issues we faced, we had to change ownership of some feature layers and set sharing to public.</p> 
+  	<p> <b>Next Steps: </b> Once everyone could properly access the web map and Experience Builder page, the next step was to customize the experience 
+        with our users in mind.</p> 
 
   <h2>Week 11</h2>
   <h3>Phase 3: Experience Builder Development</h3>
   <p> <b>Action:</b> We began to customize our experience by working on the design aesthetic. We added in the Conservation Authority logo, 
     proper titles, and side bars to display map information. Making sure the layout was functional was imperative to the user "experience". 
     We wanted to be sure that anybody accessing this solution would be able to easily navigate the map. </p> 
-  <p> <b>Outcomes:</b> These actions resulted in the first iteration of our Experience Builder. It had some user functionality with wetland 
-    data being displayed on the side bar when the user clicked around on the map layers as well as text communicating to the user the 
+  <p> <b>Outcomes:</b> These actions resulted in the first iteration of our Experience. It had some user functionality; wetland 
+    data was displayed on the side bar when the user selected that layer of the map, as well as text communicating to the user the 
     purpose of the application and how to use it. </p> 
-  <p> <b>Next Steps: </b> Now that we have communicated to the user how we want the interactive map to function we had to design and implement 
+  <p> <b>Next Steps: </b> Now that we have communicated to the user how we wanted the interactive map to function, we had to design and implement 
     that functionality. The next step was to research and develop an arcade expression that could be used to customize pop-ups and display the 
-    exact information we wanted the user to know.  </p> 
+    exact information we wanted the user to be able to access. </p> 
 
   <h2>Week 12</h2>
   <h3>Phase 4: Experience Builder Development Continued</h3>
-  <p> <b>Action:</b> Our focus now was developing the arcade expressions and configuring pop-ups to display the necessary information to the user. 
+  <p> <b>Action:</b> Our focus this week was developing arcade expressions and pop-ups configuration that would best display necessary information to the user. 
     Ultimately, we wanted the user to know if their property intersected with any features that were regulated by the Conservation Authority. We did 
     this by using the intersect functionality of arcade expressions. Initially, we customized expressions for the parcel layer pop-ups to return a 
     value of “Yes” if the parcel they clicked on intersected with the watershed boundary layer, waterbodies, watercourses, and wetland layers 
-    (provincially significant and otherwise). Knowing if a property intersected with these features will 1) Let the user know if their property 
-    was within Crow Valley’s jurisdiction and 2) whether their property had an environmental feature which required a permit to build.  </p> 
+    (provincially significant or otherwise). Knowing if a property intersects these features 1) lets the user know if their property 
+    is within Crowe Valley’s jurisdiction and 2) whether their property had an environmental feature which required a permit to build.  </p> 
   <p> <b>Outcomes:</b> Further development of the arcade expressions led to a solution that not only would return a value of “Yes” if the parcel 
-    intersected with another feature layer but also return a value of “No” if it did not. We also configured the pop-ups to display information 
-    about the wetland name and type. The benefit to using the Arcade expressions is that it allows the map to query those layers intersecting with 
+    intersected with another feature layer, but also return a value of “No” if it did not. We also configured the pop-ups to display information 
+    about the wetland name and type. The benefit to using the Arcade expressions is that it allows the map to query those layers that intersect with 
     the parcel of interest in real time, avoiding time-consuming pre-processing and making the application easy to adapt in the future.  </p> 
   <p> <b>Next Steps: </b> Although the basic functionality is in place, there are still issues with the Experience Builder. Mainly, that the display 
     is not configured for all devices sizes and it has a cluttered appearance.  </p>
@@ -104,15 +104,17 @@
   <h2>Week 13</h2>
   <h3>Phase 5: Experience Builder Development Continued and Website Development</h3>
   <p> <b>Action:</b> With the Arcade expressions built, it was time to put the finishing touches on the website. We identified two major problems: 
-    the experience was slow to load, and while the website looked excellent for one size of device screen, the design needed to be responsive. 
-	  For different monitors and laptop screens, this is achieved by changing the size designation for each element on the page from pixels 
-    (which are static) to percentage values, which scale with the size of screen. For tablet and phone screens, the experience builder has connected
-	  layouts for smaller devices. It was simply a matter of setting the layout feature on those screen sizes to 'auto,' allowing them to inherit the 
-    widgets from the desktop screen size, then switching the layout back to custom, to adjust the sites further to make them clean and easy to use.
-	  For example, even with the inherited features, the sidebar was too large on the phone screen for the user to use the 'collapse' button, and the 
-    sizing needed to be changed. For the speed of the app, it was decided to change the visibility on the denser features such as the parcels. We 
-	  created a layer combining the parcels by municipality when the viewer sees the map 'zoomed out,' removing the requirement for the experience to 
-    load all of the parcel records when the application is opened. When the user 'zooms in,' they can then see the parcels in their area of interest. </p> 
+    the experience was slow to load, and while the website looked excellent for one size of device screen, the design needed to be responsive.</p>
+	 <p> For different monitors and laptop screens, responsive design is achieved in the experience builder by changing the size designation for each element on the 
+	  page from pixels (which are static) to percentage values, which scale with the size of screen. Additionally, the experience builder 
+	  has separate layouts for smaller devices, such as tablets and phone screens. It was simply a matter of changing the setting the button next to 
+	  those layouts to 'auto,' allowing them to inherit the widgets from the desktop screen size. Then the layout was switched back to 'custom,' in order
+	  to adjust any overlapping widgets or text, making the layouts for smaller devices cleaner and more user-friendly. For example, even with the inherited 
+	  features, the sidebar was too large on the phone screen for the user to use the 'collapse' button, and the sizing needed to be changed.</p>
+	  <p>To improve the speed of the app, we decided to change the visibility on the denser features such as the parcels. We created a layer combining the parcels 
+	  by municipality, which the viewer sees as the map 'zoomed out' at the smaller scale of the conservation authority, removing the requirement for the experience 
+	  to load all of the parcel records when the application is opened. When the user 'zooms in' to a larger scale, they can then see the parcels in their area of 
+	  interest. </p> 
   <p> <b>Outcomes:</b>A website that worked well on varied screen sizes. The website speed is still not optimal, but we are limited by the capabilites 
     of the Experience Builder itself. The user can now see the municipalities they are interested in when opening the map, without the clutter of every 
     parcel located in the watershed area.</p> 
@@ -126,7 +128,7 @@
     tested this out on a mobile device, desktop, and a few different browsers as well.  </p> 
   <p> <b>Outcomes:</b> The final outcome of this project is a web site introducing our problem statement and project goals, the step-by-step development 
     of the web solution and a solution page hosting our Experience Builder.   </p> 
-  <p> <b>Next Steps: </b> Hand into Shawn! </p>
+  <p> <b>Next Steps: </b> Hand in to Shawn! </p>
 
   <img class="centered" src="images/experience1.JPG" alt="Experience 1">
   <div class="caption">Inital web map display when you open Experience Builder.</div>
@@ -136,22 +138,22 @@
   <h2>Improvements to Solution</h2>
   <h3>Technical Issues:</h3>
   <ul class="bullet">
-    <li>We were having issues during our meeting with Shawn where the pop-up would show the parcel had waterbodies intersecting but there were no waterbodies 
-      showing on the map. This ended up being a simple issue with the visibility of the layer which we were able to fix. </li>
-    <li>When embedding the Experience Builder into the website, we were having to sign into ArcGIS Online. Although we had the Experience Builder and web map 
+    <li>We had issues with the app during our final technical review. Pop-ups would identify a parcel as intersecting with waterbodies, while there were no waterbodies 
+      visible on the map. This was discovered to be a simple issue with the visibility of the layer, which we were able to fix. </li>
+    <li>When embedding the Experience Builder into the website, users were required to sign into ArcGIS Online. Although we had the Experience Builder and web map 
       set to public sharing, there were layers associated with the map that were not set to public. In order to fix this issue, we set all layers associated 
-      with the map to public sharing. </li>
-    <li>There is an issue with the labels associated with the municipalities layer. We had to perform a spatial join to show which municipality each parcel 
-      was associated with; when doing this the labels associated with two different municipalities were associated with one parcel. We believe this is a result 
-      of the data and perhaps that parcel spans two municipalities. As a result, the label for one of municipalities (North Kawartha) does not show up on the 
+      with the map to public sharing, and replaced the proprietary basemap with a public one. </li>
+    <li>There is an issue with the labels associated with the municipalities layer. We had to perform a spatial join in ArcGIS Pro in order to show which municipality 
+      each parcel was associated with. During this process, the labels associated with two different municipalities were associated with one parcel. We believe this may result 
+      from the character of the data - perhaps that parcel spans two municipalities. As a result, the label for one of municipalities (North Kawartha) is not visible on the 
       map. We would have to do additional data clean up in order to fix this issue. </li>
   </ul>
   <h3>Possible Future Improvements:</h3>
   <p>When clicking on a parcel layer, where a parcel does interact with wetland features, the sidebar wetland information will show field values associated 
-    with that feature. Because we have two wetland layers there are two widgets associated with wetlands. If you click on a parcel and there is one wetland layer 
-    intersecting but not the other, the widget not intersecting will be left with the default values (on the first feature). This might be confusing to a user that 
-    might think that wetland is also associated with their property. It would be nice to customize the widget to show nothing when there is nothing from that feature 
-    layer intersecting with the parcel layer.  </p>
+    with that feature. However, as we have two wetland layers we included two widgets associated with wetlands. If you click on a parcel which one wetland layer 
+    intersects, but not the other, the widget for the layer that does not intersect will still display the default wetland record (on the first feature). 
+    This might be confusing to a user that might think that wetland is also associated with their property. We are interested in customizing the wetalnd feature widgets
+    to appear blank when there is nothing from that feature layer intersecting with the parcel layer.</p>
       
 </div>
 <div class="footer">
